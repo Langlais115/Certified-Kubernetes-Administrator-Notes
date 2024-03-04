@@ -854,6 +854,7 @@ the roles of individual users within the organization. Essentially, what users a
 to do and access within the cluster.
 
 Docs: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+<p align="center"><img width="600" alt="portfolio_view" src="rbac.png"></p>
 
 
 ## Role Objects
