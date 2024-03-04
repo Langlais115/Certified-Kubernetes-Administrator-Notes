@@ -851,7 +851,8 @@ Docs: https://kubernetes.io/docs/reference/kubectl/
 
 Role-based access control (RBAC) is a method of regulating access to resources based on
 the roles of individual users within the organization. Essentially, what users are allowed
-to do and access within the cluster.
+to do and access within the cluster. It grand actions on ressources.
+You can reg resources list using ```k api-resources```
 
 Docs: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
 <p align="center"><img width="600" alt="portfolio_view" src="rbac.png"></p>
