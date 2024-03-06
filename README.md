@@ -875,6 +875,7 @@ Docs: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
         - apiGroups: [""]       # <-- "" indicates the core API group
           resources: ["pods", "pods/logs"]
           verbs: ["get", "watch", "list"]
+          resourceNames: ["my-app-pod", "db-pod"]  # <-- optionaly restrict by resource name
       ```
 
 
